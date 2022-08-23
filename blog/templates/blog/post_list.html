@@ -5,6 +5,16 @@
     <title>Blog dla programistów</title>
 </head>
 <body>
-    <h1>Witam na stronie bloga!</h1>
+    <h1>Posty na blogu:</h1>
+    {% comment %}
+    Pętla postów
+    {% endcomment %}    
+    {% for post in posts %}
+    <div>
+        <p>opublikowany: {{ post.publish_data }}</p>
+        <h2><a href="">{{ post.title }}</a></h2>
+        <em>{{ post.text }}</em> 
+    </div>
+    {% endfor %}
 </body>
 </html>
