@@ -1,20 +1,15 @@
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <title>Blog dla programistów</title>
-</head>
-<body>
-    <h1>Posty na blogu:</h1>
-    {% comment %}
-    Pętla postów
-    {% endcomment %}    
-    {% for post in posts %}
-    <div>
-        <p>opublikowany: {{ post.publish_data }}</p>
-        <h2><a href="">{{ post.title }}</a></h2>
-        <em>{{ post.text }}</em> 
-    </div>
-    {% endfor %}
-</body>
-</html>
+{% extends 'blog/base.html' %}   
+   {% block content %}
+        {% for post in posts %}
+        
+            <div class="post">
+                <div class="data">
+                    <p>opublikowany: {{ post.publish_data }}</p>
+                </div>
+                
+                <h2><a href="">{{ post.title }}</a></h2>
+                <em>{{ post.text }}</em> 
+            </div>
+
+        {% endfor %}
+    {% endblock %}    
