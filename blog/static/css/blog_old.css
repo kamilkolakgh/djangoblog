@@ -1,0 +1,146 @@
+h1 a,h2 a{
+    color: #DE781F;
+}
+
+body {
+    padding-left: 15px;
+    font-family: 'Lato', sans-serif;
+}
+.page-header {
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 10px 50px 0px 0px;
+    color: #C25100;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    width: 70%;
+    border-style: hidden;
+}
+
+.text-justify{
+    margin-right: 55px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #C25100;
+}
+
+.gora{
+    width: 70%;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #f0f0f0;
+}
+
+.baner{
+    width: 100%;
+    border-radius: 10px;
+    border-bottom: solid;
+    border-left: solid;
+}
+
+.content{
+    margin: auto;
+    width: 100%;
+}
+
+.img{
+    margin: 25px;
+    float: left;
+    border-radius: 10%;
+}
+
+.data {
+    color: #828282;
+}
+
+.save{
+    float: right;
+}
+
+.post-from textarea, .post-from input{
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited{
+    color: #fff;
+    float: left;
+    font-size: 10pt;
+    margin-left: 20px;
+    margin-top: 4px;
+    padding: 10px 0;
+}
+
+.plus{
+    float: right;
+    margin-right: 20px;
+}
+
+.post{
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 1px;
+}
+
+.post h2 a, .post h1 a:visited{
+    color: #061A40;
+}
+
+.nav-link{
+    padding: 0px 0px 0px 78px;
+    color: #061A40;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+h2{
+    font-family: 'Inter', sans-serif;
+}
+
+.all{
+    margin: auto;
+    width: 80%;
+    padding-left: 220px;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-link2{
+    padding: 0px 70px 0px 11px;
+    color: #C25100;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.title{
+    font-size: 45px;
+}
+
+.stopka{
+    margin-top: 35px;
+    width: 100%;
+    padding: 10px;
+    background-color: #061A40;
+}
+
+.site-footer{
+    padding: 45px 0 20px;
+    font-size: 13px;
+    line-height: 34px;
+    color:#fff
+}
+
+.site-footer hr{
+    border-top-color: #bbb;
+    opacity: 0.5;
+}
+
+.site-footer hr.small{
+    margin: 20px 0;
+}
+
+.site-footer h6
+{
+    
+}
+
+
